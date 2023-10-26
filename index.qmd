@@ -410,9 +410,11 @@ exemplos |>
 
 
 
- 
+# Para aprender mais
 
-## Saiba mais sobre a R-Ladies
+- ADICIONAR!
+
+# Saiba mais sobre a R-Ladies
 
 -   R-Ladies São Paulo:
 
