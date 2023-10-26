@@ -1,0 +1,13 @@
+name: 03-flexdashboard-shiny
+title: 03-flexdashboard-shiny
+username:
+account: beatriz-milz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9077886
+bundleId: 7199140
+url: https://beatriz-milz.shinyapps.io/03-flexdashboard-shiny/
+when: 1683721958.03755
+lastSyncTime: 1683721958.03757
+asMultiple: FALSE
+asStatic: FALSE
