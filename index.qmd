@@ -1,10 +1,10 @@
 ---
 title: "Apresentando os resultados com R"
 subtitle: "1º Seminário Interdisciplinar em Ciência de Dados LInDA (I SINCID LINDA) <br> Universidade Estadual Paulista (UNESP) - Campus Bauru"
-author: "[Beatriz Milz](https://beamilz.com) <br> [R-Ladies São Paulo](https://rladies-sp.org)"
+author: "[Beatriz Milz](https://beamilz.com) <br> [R-Ladies São Paulo](https://rladies-sp.org) <br><br> Acesse a apresentação em: [bit.ly/bia-linda](https://bit.ly/bia-linda)"
 format: 
   rladies-revealjs:
-    footer: "Slides por [Beatriz Milz](https://beamilz.com) (@BeaMilz), feito com [Quarto](https://quarto.org/docs/presentations/revealjs/index.html) e [Quarto R-Ladies Theme](https://github.com/beatrizmilz/quarto-rladies-theme#quarto-r-ladies-theme)."
+    footer: "Acesse a apresentação em: <br> **[bit.ly/bia-linda](https://bit.ly/bia-linda)**"
 incremental: false
 code-link: true
 ---
@@ -21,8 +21,7 @@ code-link: true
 
 - Exemplos de uso do Quarto
 
-
-<https://beatrizmilz.github.io/2023-10-1-sincid-linda-unesp/>
+- Links para saber mais
 
 # R-Ladies São Paulo
 
@@ -64,30 +63,6 @@ code-link: true
     -   Mestrado: PPG-Análise Ambiental Integrada - UNIFESP Diadema
     -   Doutorado em andamento: PPG Ciência Ambiental (PROCAM) - IEE/USP
 
-## Conteúdos que estou mais envolvida
-
-- Textos:
-
-  -   Meu blog: <https://beamilz.com>
-
-  -   Blog da Curso-R: <https://blog.curso-r.com/>
-
-  -   Blog da R-Ladies São Paulo: <https://rladies-sp.org/>
-
-## Conteúdos que estou mais envolvida
-
-- Vídeos: [criei uma lista no Youtube :)](https://youtube.com/playlist?list=PLR44bTVMOm7P7SY8dkGudwXXabhEjYTT4&si=VAFbo8U4Y6ByNyuc) - mais de 45 vídeos, desde 2019.
-
-
-![](img/youtube.jpg){fig-align="center"}
-
-## Conteúdos que estou mais envolvida
-
-
-- Organização do projeto de tradução **voluntária** pela comunidade, da segunda edição do livro R para Ciência de Dados: <https://cienciadedatos.github.io/pt-r4ds/>
-
-![](img/r4ds2.png){fig-align="center"}
-
 ## Ensino
 
 -   Instrutora de Tidyverse certificada pela Posit (antiga RStudio)
@@ -98,15 +73,30 @@ code-link: true
 
 -   [CEBRAP.lab](https://cebrap.org.br/cebrap-lab/)
 
-## Temas favoritos em R
+## O que eu gosto de fazer?
 
--   Automatizar tarefas
+- Dormir
 
--   Criar relatórios reprodutíveis
+![](img/bela-adormecida.jpg){fig-align="center"}
 
-## Além do R!
 
-![](img/bia-alem-do-r.png){fig-align="center"}
+## O que eu gosto de fazer em R?
+
+- Automatizar tarefas -> mais tempo pra dormir!
+
+![](img/boring.jpg){fig-align="center"}
+
+
+## Conteúdos que estou mais envolvida
+
+
+- Organização do projeto de tradução **voluntária** pela comunidade, da segunda edição do livro "R for Data Science": <https://cienciadedatos.github.io/pt-r4ds/>
+
+- Se tiver interesse em colaborar com a tradução e/ou revisão dos capítulos, entre em contato comigo! (**milz.bea\@gmail.com**)
+
+![](img/r4ds2.png){fig-align="center"}
+
+
 
 # Compartilhando os resultados
 ![](img/comunicacao.png){fig-align="center"}
@@ -204,7 +194,38 @@ Fonte: Allison Horst (@allison_horst).
 
 - Formatação mais limitada
 
-- ... pensar em outros :)
+- [Expert blind spot](https://carpentries.github.io/instructor-training/04-expertise.html#mind-the-gap)... Fui perguntar a opinião de outras pessoas :)
+
+
+## Pontos negativos (opinião de outras pessoas)
+
+- Dificuldade em formatar os conteúdos de forma mais personalizada
+
+- É preciso entender pelo menos um pouco de campos diferentes (Markdown, HTML, CSS)
+
+- Não conseguir fazer animações como no Powerpoint
+
+- Obrigada: [Haydee Svab](https://www.linkedin.com/in/hsvab/?originalSubdomain=br), [Fernanda Peres](https://fernandafperes.com.br/), [Bianca Muniz](https://biamuniz.github.io/)
+
+## Dificuldades para quem está começando (opinião de outras pessoas)
+
+- Entender a vantagem da reprodutibilidade
+
+- Vencer a curva de aprendizado inicial: o benefício é mais claro ao longo prazo
+
+- Acreditar que na imensa maioria das vezes terão um resultado final melhor do que fazer ajustes na mão
+
+
+- Obrigada: [Haydee Svab](https://www.linkedin.com/in/hsvab/?originalSubdomain=br), [Fernanda Peres](https://fernandafperes.com.br/), [Bianca Muniz](https://biamuniz.github.io/)
+
+
+## Opinião da Fernanda Peres
+
+> "Eu sou MUITO fã do RMarkdown para relatórios, realmente agilizou meu trabalho, minha entrega de relatórios. Não migrei para o Quarto ainda porque senti que há funções que eu uso que ainda não foram implementadas em Quarto."
+
+
+![](img/fe-peres.png){fig-align="center"}
+
 
 # Primeiros passos
 
@@ -347,10 +368,29 @@ A base de dados pinguins apresenta dados referente à [`r nrow(pinguins)`]{.colo
 
 ![](img/codigo-pinguins.png){fig-align="center"}
 
+## Outras funcionalidades interessantes para documentos acadêmicos
 
+- Adicionar equações com LaTeX
 
+- Adicionar referências bibliográficas com Zotero (ou outro gerenciador de referências que gere um arquivo `.bib`)
+
+- Gerar a lista de referências ao final do documento (a partir de um arquivo `.csl`
+
+- Facilidade para citar pacotes em R
+
+- Referências cruzadas (capítulos, figuras, tabelas)
+
+- [Leia sobre](https://beatrizmilz.github.io/2023-curso-de-verao-ime-usp-relatorios/slides/05-elementos-acad.html#/)
 
 # Exemplos
+
+## Exemplos de documentos acadêmicos
+
+- [Tese de doutorado Julio Trecenti](https://jtrecenti.github.io/doutorado/Resolvendo-Captchas.pdf)
+
+- [Artigo da minha pesquisa de mestrado](http://www.ambi-agua.net/seer/index.php/ambi-agua/article/view/2402)
+
+
 
 ## Comunicação: exemplos \[pt. 1\]
 
@@ -386,7 +426,7 @@ exemplos <- tibble::tibble(desc = as.character(),
 
 
 exemplos |>
-  dplyr::slice(1:2) |> 
+  dplyr::slice(1:3) |> 
   knitr::kable(col.names = c("O que podemos fazer?", "Exemplos"))
 ```
 
@@ -395,26 +435,42 @@ exemplos |>
 ```{r}
 #| echo: false
 exemplos |>
-  dplyr::slice(3:5) |> 
-  knitr::kable(col.names = c("O que podemos fazer?", "Exemplos"))
-```
-
-## Comunicação: exemplos \[pt. 3\]
-
-```{r}
-#| echo: false
-exemplos |>
-  dplyr::slice(6:dplyr::n()) |> 
+  dplyr::slice(4:dplyr::n()) |> 
   knitr::kable(col.names = c("O que podemos fazer?", "Exemplos"))
 ```
 
 
+# Conclusão
 
-# Para aprender mais
+## Para aprender mais
 
-- ADICIONAR!
+- Post sobre o Quarto no blog da R-Ladies São Paulo, por Ariane Hayana: <https://rladies-sp.org/posts/2023-02-tutorial-quarto/>
 
-# Saiba mais sobre a R-Ladies
+- Documentação do Quarto: <https://quarto.org/docs/get-started/> 
+
+- Material do curso de verão IME USP: <https://beatrizmilz.github.io/2023-curso-de-verao-ime-usp-relatorios/slides.html>
+
+
+
+## Para aprender mais
+
+- Criei uma lista no Youtube de videos em que eu participo :): [bit.ly/beamilz-yt](https://youtube.com/playlist?list=PLR44bTVMOm7P7SY8dkGudwXXabhEjYTT4&si=VAFbo8U4Y6ByNyuc) - mais de 45 vídeos, desde 2019. Tem vários nesse tema!
+
+
+![](img/youtube.jpg){fig-align="center"}
+
+
+## Conteúdos que estou mais envolvida
+
+- Textos:
+
+  -   Meu blog: <https://beamilz.com>
+
+  -   Blog da Curso-R: <https://blog.curso-r.com/>
+
+  -   Blog da R-Ladies São Paulo: <https://rladies-sp.org/>
+
+## Saiba mais sobre a R-Ladies
 
 -   R-Ladies São Paulo:
 
@@ -426,15 +482,18 @@ exemplos |>
     -   [<i class="fab fa-youtube"></i> Youtube](https://www.youtube.com/c/RLadiesSãoPaulo)
 
 
-# Obrigada!
+## Obrigada!
 
-  - [<i class="fa fa-envelope"></i> Email: milz.bea\@gmail.com](mailto:milz.bea@gmail.com)
+- [<i class="fa fa-envelope"></i> Email: milz.bea\@gmail.com](mailto:milz.bea@gmail.com)
 
 -   [<i class="fab fa-instagram"></i> Instagram: @beatrizmilz](https://instagram.com/beatrizmilz)
     
 -   [<i class="fab fa-linkedin"></i> Linkedin: Beatriz Milz](https://www.linkedin.com/in/beatrizmilz/)   
 
 -   [<i class="fab fa-github"></i> GitHub: @beatrizmilz](https://github.com/beatrizmilz/)  
+
+
+Slides por [Beatriz Milz](https://beamilz.com) (@BeaMilz), feito com [Quarto](https://quarto.org/docs/presentations/revealjs/index.html) e [Quarto R-Ladies Theme](https://github.com/beatrizmilz/quarto-rladies-theme#quarto-r-ladies-theme).
 
 
 <!-- inicio font awesome -->
